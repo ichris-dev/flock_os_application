@@ -20,3 +20,4 @@ pypdf
 python-docx
 beautifulsoup4
 numpy
+google-auth
