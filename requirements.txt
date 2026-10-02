@@ -1,3 +1,26 @@
+# fastapi
+# uvicorn[standard]
+# python-multipart
+# sqlalchemy
+# asyncpg
+# alembic
+# pydantic
+# pydantic-settings
+# python-dotenv
+# python-jose[cryptography]
+# passlib[bcrypt]
+# httpx
+# aiofiles
+# langchain
+# langchain-community
+# langchain-core
+# sentence-transformers
+# faiss-cpu
+# pypdf
+# python-docx
+# beautifulsoup4
+# numpy
+# google-auth
 fastapi
 uvicorn[standard]
 python-multipart
@@ -9,15 +32,6 @@ pydantic-settings
 python-dotenv
 python-jose[cryptography]
 passlib[bcrypt]
-httpx
-aiofiles
-langchain
-langchain-community
-langchain-core
-sentence-transformers
-faiss-cpu
-pypdf
-python-docx
-beautifulsoup4
-numpy
+bcrypt==4.0.1
+requests
 google-auth
