@@ -12,5 +12,5 @@ class Topic(Base):
 
     topic_id = Column(Integer, primary_key=True, autoincrement=True)
     topic = Column(String(255), nullable=False)
-    user_id = Column(Integer, ForeignKey("topics.topic_id"), nullable=False)  # add ForeignKey("users.id") if you have a users table
+    user_id = Column(Integer, ForeignKey("users.user_id"), nullable=False)  # add ForeignKey("users.id") if you have a users table
     created_at = Column(DateTime, server_default=func.now())
